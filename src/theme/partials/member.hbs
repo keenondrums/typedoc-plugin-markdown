@@ -4,6 +4,8 @@
 {{#getMemberHeadingLevel this}}{{/getMemberHeadingLevel}} {{#each flags}}`<{{this}}>`{{/each}} {{name}}
 {{/if}}
 
+{{> comment}}
+
 {{#if signatures}}
 {{> member.signatures}}
 {{else}}{{#if hasGetterOrSetter}}
